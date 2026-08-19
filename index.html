@@ -1,122 +1,68 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OMOTAYO HAYES PORTFOLIO</title>
     <link rel="stylesheet" href="portfoliostyle.css">
-    </head>
-
+</head>
 
 <body>
 
 <nav>
-    <a href="#home">Home</a>
-    <a href="#services">What I Do</a>
-    <a href="#aboutme">About Me</a>
-    <a href="#porfolio">Portfolio</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
+    <ul class="nav-links">
+      <li>HOME</li>
+      <li>PROJECTS</li>
+      <li>SKILLS</li>
+      <li>GET IN TOUCH</li>
+    </ul>
+    <div class="nav-social">
+      <span>in</span>
+      <span style="display: inline-flex; align-items: center; gap: 6px;">&#9993;</span>
+      <span>𝕏</span>
+    </div>
 </nav>
 
-<header class="hero">
-        <div class="herotext">
-    <h1 id ="home">I am Omotayo Hayes</h1>
-    <h2>A Web Developer, Data Analyst and Graphics Designer</h2>
-    <p>I create clients captivating designs for brands and individuals.<br>I also design leading websites for individuals and organizations</p>
-       
+<section class="hero">
+    <div class="hero-text">
+        <p class="eyebrow">WEB DEVELOPER . DATA ANALYST . GRAPHICS DESIGNER</p>
+        <h1>Omotayo<br>Hayes</h1>
+        <p>I design captivating websites and flyers for individuals and brands. I also analyze data for easier access and use.
+</p>
+
+        <div class="btn-row">
+            <a href="#work" class="btn btn-primary">
+                View My Work
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <line x1="5" y1="19" x2="19" y2="5"></line>
+                    <polyline points="9 5 19 5 19 15"></polyline>
+                </svg>
+            </a>
+            <a href="#hireme" class="btn btn-secondary">
+                Hire Me
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+            </a>
+        </div>
+    </div>
+
+    <div class="heroimage">
+        <img src="finewoman.png" alt="Omotayo Hayes">
+    </div>
+</section>
+
+
+<section class="projects">
+    <div class="projecttitle">
+        <h4><u>PROJECTS</u></h4>
+
         
-    <div class="herobuttons">
-    <a href="mailto:omotayohayes@gmail.com">HIRE ME</a>
-    <a href="#portfolio">VIEW MY WORK</a>
+
     </div>
 
-     </div>
-
-        <div class="heroimage">
-            <img src="ccbcb_1.jpg" alt="Omotayo Hayes">
-    </div>
-</header>
-
-<section id ="services">
-    <h2>WHAT I DO</h2>
-        <div class="services">
-        <div class="servicecard">
-    <h3>Web Development</h3>
-    <p>I design leading websites for individuals and organizations</p>
-        </div>
-
-        <div class="servicecard">
-    <h3>Data Analyst</h3>
-    <p>I analyze data and convert them to useful Information</p>
-        </div>
-
-        <div class="servicecard">
-    <h3>Graphics Design</h3>
-    <p>I create clients captivating designs for brands and individuals</p>
-        </div>
-
-        </div>
 </section>
-
-<section id="me">
-    <div class="meimage">
-            <img src="ccbcb_1.jpg" alt="Omotayo Hayes">
-    </div>
-
-    <div class="metext">
-<h2 id ="aboutme">ABOUT ME</h2>
-<p>I am a Web Developer, Data Analyst and a Graphics Designer.<br>Passionate about creating captivating designs, leading websites and convert data to useful informations.</p>
-<ul>
-    <li><span style="color: blue; margin-right: 8px;">&#10003;</span>2Years+ experience in web development</li>
-    <li><span style="color: blue; margin-right: 8px;">&#10003;</span>Strong design skill using coreldraw, figma, canva</li>
-    <li><span style="color: blue; margin-right: 8px;">&#10003;</span>Strong use of data analytic tool (microsoft excel)</li>
-</ul>
-
- </div>
-</section>
-
-<section id="portfolio">
-
-<h2 id="porfolio">PORTFOLIO</h2>
-
-<div class="porfoliosection">
-
-    <div class="portfoliotext">
-<img src="websiteproject1.jpg" alt="Website Project 1">
-<h3>Website Project 1</h3>
-</div>
-
-    <div class="portfoliotext">
-<img src="websiteproject2.jpg" alt="Website Project 2">
-<h3>Website Project 2</h3>
-</div>
-
-    <div class="portfoliotext">
-<img src="posterdesign.jpg" alt="Poster Design">
-<h3>Poster Design</h3>
-        </div>
-
-    <div class="portfoliotext">
-<img src="analyzeddata.jpg" alt="Analyzed Data">
-<h3>Analyzed Data</h3>
-    </div>
-</div>
-</section>
-
-
-<h2 id ="skills">SKILLS</h2>
-<h3>WEB DEVELOPMENT</h3> 
-    <p>HTML | CSS | JAVASCRIPT</p>
-<h3>GRAPHICS DESIGN</h3>
-    <p>CORELDRAW | ADOBE PHOTOSHOP | FIGMA | CANVA |</p>
-<h3>DATA ANALYST</h3>
-    <p>MICROSOT EXCEL |</p> 
-    
-
-<h3 id ="contact">CONTACT ME</h3>
-<p>DO YOU HAVE A PROJECT IN MIND? LET'S BUILD<br>SOMETHING GREAT TOGHETHER.</p>
-<a href="mailto:omotayohayes@gmail.com">HIRE ME</a>
-
-
-
-
 </body>
 </html>
