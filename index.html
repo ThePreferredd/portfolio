@@ -11,19 +11,19 @@
 
 <nav>
     <ul class="nav-links">
-      <li>HOME</li>
-      <li>PROJECTS</li>
-      <li>SKILLS</li>
-      <li>GET IN TOUCH</li>
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#work">PROJECTS</a></li>
+      <li><a href="#skills">SKILLS</a></li>
+      <li><a href="#hireme">GET IN TOUCH</a></li>
     </ul>
     <div class="nav-social">
-      <span>in</span>
-      <span style="display: inline-flex; align-items: center; gap: 6px;">&#9993;</span>
-      <span>𝕏</span>
+      <a href="https://www.linkedin.com/in/omotayo-hayes-966b02190?utm_source=share_via&utm_content=profile&utm_medium=member_android" aria-label="LinkedIn"><span>in</span></a>
+      <a href="mailto:omotayohayes@gmail.com" aria-label="Email"><span style="display: inline-flex; align-items: center; gap: 6px;">&#9993;</span></a>
+      <a href="https://x.com/OmotayoHayes" aria-label="X (Twitter)"><span>𝕏</span></a>
     </div>
 </nav>
 
-<section class="hero">
+<section class="hero" id="home">
     <div class="hero-text">
         <p class="eyebrow">WEB DEVELOPER . DATA ANALYST . GRAPHICS DESIGNER</p>
         <h1>Omotayo<br>Hayes</h1>
@@ -62,14 +62,22 @@
         <a class="project-card" href="websiteproject1.html">
             <div class="project-thumb">
                 <img src="websiteproject1.jpg" alt="Website Project 1">
+                <div class="project-overlay">
+                    <p>Full site build, from layout to launch.</p>
+                </div>
             </div>
+            <span class="project-tag">WEB</span>
             <h5>WEBSITE<br>PROJECT 1</h5>
         </a>
 
         <a class="project-card" href="websiteproject2.html">
             <div class="project-thumb">
                 <img src="websiteproject2.jpg" alt="Website Project 2">
+                <div class="project-overlay">
+                    <p>Full site build, from layout to launch.</p>
+                </div>
             </div>
+            <span class="project-tag">WEB</span>
             <h5>WEBSITE<br>PROJECT 2</h5>
         </a>
 
@@ -77,7 +85,11 @@
         <a class="project-card" href="posterdesign.html">
             <div class="project-thumb">
                 <img src="posterdesign.jpg" alt="Poster Design">
+                <div class="project-overlay">
+                    <p>Brand poster designed for print and social.</p>
+                </div>
             </div>
+            <span class="project-tag">DESIGN</span>
             <h5>POSTER<br>DESIGN</h5>
         </a>
 
@@ -85,27 +97,61 @@
         <a class="project-card" href="posterdesign.html">
             <div class="project-thumb">
                 <img src="analyzeddata.jpg" alt="Analyzed Data">
+                <div class="project-overlay">
+                    <p>Raw data cleaned and shaped for easier use.</p>
+                </div>
             </div>
+            <span class="project-tag">DATA</span>
             <h5>ANALYZED<br>DATA</h5>
         </a>
     </div>
 </section>
 
-<section>
+<section id="skills">
     <div class="toolset">
     <div class="toolscroll">
-        <img src="htmllogo.png" alt="htmllogo">
-        <img src="csslogo.webp" alt="csslogo">
-        <img src="jslogo.png" alt="jslogo">
-        <img src="msexcellogo.png" alt="msexcel">
+        <div class="toolscroll-track">
+            <img src="htmllogo.png" alt="htmllogo">
+            <img src="csslogo.webp" alt="csslogo">
+            <img src="jslogo.png" alt="jslogo">
+            <img src="msexcellogo.png" alt="msexcel">
+            <img src="htmllogo.png" alt="htmllogo">
+            <img src="csslogo.webp" alt="csslogo">
+            <img src="jslogo.png" alt="jslogo">
+            <img src="msexcellogo.png" alt="msexcel">
+        </div>
     </div>
 </div>
 </section>
 
-<section>
+<section id="hireme">
     <div class="footer">
         <div class="footerleft">
-            
+            <p class="eyebrow">GET IN TOUCH</p>
+            <h4>Let's build something together.</h4>
+            <p>Have a website, flyer, or dataset that needs a closer look? Send a message and I'll get back to you.</p>
+            <ul class="footer-contact-list">
+                <li>omotayohayes@gmail.com</li>
+                <li>Lagos, Nigeria</li>
+            </ul>
+        </div>
+        <div class="footerright">
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Your name" required>
+                <input type="email" name="email" placeholder="Your email" required>
+                <textarea name="message" placeholder="Tell me about your project" required></textarea>
+                <button type="submit" class="btn btn-primary">
+                    Send Message
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                        <line x1="5" y1="19" x2="19" y2="5"></line>
+                        <polyline points="9 5 19 5 19 15"></polyline>
+                    </svg>
+                </button>
+            </form>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2026 Omotayo Hayes. All rights reserved.</span>
+            <span>WEB DEVELOPER . DATA ANALYST . GRAPHICS DESIGNER</span>
         </div>
     </div>
 </section>
