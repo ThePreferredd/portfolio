@@ -21,10 +21,23 @@ nav{
   display:flex;
   align-items:center;
   justify-content:space-between;
-  padding:6px 50px;
+  padding:22px 60px;
   position:sticky;
   top:0;
   z-index:10;
+}
+
+.nav-logo{
+  font-family:'Outfit', sans-serif;
+  font-weight:800;
+  font-size:20px;
+  letter-spacing:1px;
+  color:var(--text-white);
+  text-decoration:none;
+}
+
+.nav-logo span{
+  color:var(--accent);
 }
 
 .nav-links{
@@ -91,7 +104,8 @@ a {
   justify-content:space-between;
   gap:50px;
   flex-wrap:wrap;
-  padding:50px 90px 70px 70px;
+  min-height:calc(100vh - 76px);
+  padding:50px 90px;
   background:linear-gradient(135deg, var(--navy) 0%, #061f3d 55%, #0a2c50 100%);
   overflow:hidden;
 }
@@ -212,7 +226,8 @@ a {
 
 @media (max-width: 900px){
   .hero{
-    padding:90px 24px 80px;
+    min-height:auto;
+    padding:110px 24px 80px;
     flex-direction:column-reverse;
     text-align:center;
   }
@@ -228,8 +243,9 @@ a {
   nav{
     flex-direction:column;
     gap:14px;
-    padding:16px;
+    padding:18px 16px;
   }
+  .nav-logo{ order:0; }
   .nav-links{
     flex-wrap:wrap;
     justify-content:center;
@@ -241,12 +257,12 @@ a {
     order:2;
     font-size:16px;
   }
-  .hero{ padding:60px 20px 60px; }
-  .hero h1{ font-size:42px; }
+  .hero{ padding:50px 20px 60px; }
+  .hero h1{ font-size:44px; }
   .eyebrow{ font-size:9px; letter-spacing:4px; }
   .hero p{ font-size:15px; }
   .btn{ padding:13px 22px; font-size:13px; }
-  .heroimage{ width:200px; }
+  .heroimage{ width:230px; }
 }
 
 
